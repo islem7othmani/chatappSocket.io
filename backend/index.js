@@ -20,7 +20,7 @@ app.use('/messages', chatRoutes);
 
 //connect to db
 mongoose.connect(
-	"mongodb+srv://webcamp36:34rkG6lJTQrdzaVx@cluster0.5hmqsyi.mongodb.net/"
+	"*******************************************************"
 );
 mongoose.connection.on("connected", () => {
 	console.log("DB connected");
